@@ -1,0 +1,96 @@
+body {
+  margin: 0% 23%;
+  background: #aad4cf;
+}
+
+/* inner-body style */
+.innerBody{
+  background-color: #d8e7e7;
+  margin-bottom: 5%;
+}
+
+/* image heading style */
+
+header div {
+  position: absolute;
+  font-size: 40px;
+  top: 15%;
+  left: 45%;
+  color: white;
+}
+
+/* links style */
+.navlink table{
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+
+.navlink table th{
+  border-left:2px solid black;
+}
+table th:first-child { border-left: none; }
+
+.navlink table a{
+
+  text-decoration: none;
+  color: black;
+}
+
+/* introduction style */
+#home{
+  padding: 0 2%;
+}
+
+.artical img{
+  float: left; 
+  margin: 10px;
+}
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* facts section */
+#story{
+  padding: 0 2%;
+}
+
+/* contact information style */
+#contact {
+  padding: 0 2%;
+}
+
+#contact form{
+  border-style: solid;
+  padding: 10px;
+}
+#contact button{
+  margin: 10px 0;
+  padding: 10px;
+  background-color: transparent;
+  border-style: solid black;
+}
+
+#contact form input, textarea{
+  border: none;
+}
+
+#fullname, #email, #message { 
+  width: 100%;
+}
+
+/* footer style */
+footer{
+  margin-left: 85%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+
+
+
+
+
