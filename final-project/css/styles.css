@@ -337,12 +337,45 @@ button {
   font-size: 14px;
 }
 
+@media screen and (min-width: 768px) {
+  #team {
+    padding: 2% 8%;
+  }
+
+  #team img {
+    width: 100%;
+  }
+
+  .teamGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "img1 info1"
+      "info2 img2";
+  }
+
+  .teamGrid div:nth-child(1) {
+    grid-area: img1;
+  }
+
+  .teamGrid div:nth-child(2) {
+    grid-area: info1;
+  }
+  .teamGrid div:nth-child(3) {
+    grid-area: img2;
+  }
+  .teamGrid div:nth-child(4) {
+    grid-area: info2;
+  }
+}
+
 /* Contact: At mobile, using flex to place form and map beside each other. At desktop, map will place below the contact form and table. i-frame is used to embed the map in webpage.  */
 #contact {
   padding: 2% 2%;
 }
 
-#contact p{
+#contact p {
   font-size: 30px;
   margin: 0%;
 }
@@ -379,27 +412,51 @@ button {
   width: 100%;
 }
 
-/* Schedule: At mobile, table is used for making a schedule and it placed at the end of the page. At desktop, it will appear in between Contact form and map. */
-#schdule {
-  padding: 2% 2%;
-}
-
-#schdule table {
+.schdule table {
   width: 100%;
 }
 
-#schdule table,
+.schdule table,
 th,
 td {
   border: 1px solid;
   border-collapse: collapse;
 }
 
-#schdule th {
+.schdule th {
   background-color: #fbe7b3;
 }
 
-/* Footer: At mobile, this has a full width solid background. At desktop, it is same as the mobile.  */
+@media screen and (min-width: 768px) {
+  #contact {
+    padding: 2% 8%;
+  }
+
+  .flex-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 150px;
+  }
+
+  .flex-container {
+    flex-direction: row;
+  }
+
+  .flex-item-left {
+    grid-column: 1 / 4;
+  }
+
+  .flex-item-right {
+    grid-column: 4 / 7;
+  }
+
+  .schdule {
+    grid-column: 1 / 7;
+    grid-row: 2;
+  }
+}
+
+/* Footer: At mobile, this has a full width solid background. At desktop, it is same as the mobile. */
 footer {
   background-color: #222222;
   height: 100px;
