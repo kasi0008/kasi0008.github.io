@@ -11,6 +11,10 @@ nav {
   align-items: center;
 }
 
+nav .logoContainer{
+  background-color: #bd8d3a;
+}
+
 ul,
 li,
 a {
