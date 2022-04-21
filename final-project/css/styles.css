@@ -40,6 +40,37 @@ nav .searchBar {
   color: #bd8d3a;
   background-color: transparent;
   border: 1px solid #bd8d3a;
-  padding: 3%;
+  padding: 2%;
   margin-left: 0px;
+}
+
+/* Welcome: At mobile, this has a full width background image with a semi-transparent structure in the middle that holds the content. At desktop, the content structure is no longer edge to edge and is now centered. */
+#mainBanner {
+  position: relative;
+  height: 400px;
+}
+
+#mainBanner img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+#mainBanner .wrapper {
+  position: absolute;
+  width: 96%;
+  padding: 4% 2%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(34, 34, 34, 0.7);
+  color: white;
+}
+
+#mainBanner button {
+  background-color: #bd8d3a;
+  color: black;
+  border: 0px;
+  padding: 12px;
+  font-size: 15px;
 }
