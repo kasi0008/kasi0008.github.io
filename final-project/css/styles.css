@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Header: start mobile with logo at the top left and nav>li structure is in a column. Search bar go 100% width, At desktop, all elements go into a signle row so I will use flex. */
+nav {
+  padding: 1% 2%;
+  overflow: auto;
+  background-color: hsl(0, 0%, 13%);
+  align-items: center;
+}
+
+ul,
+li,
+a {
+  list-style-type: none;
+  color: #bd8d3a;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+}
+
+nav li a:hover {
+  background-color: #bd8d3a;
+  color: black;
+}
+
+nav .searchBar {
+  display: flex;
+  align-items: center;
+}
+
+.searchBar input {
+  width: 100%;
+  height: 40px;
+}
+
+.searchBar button {
+  color: #bd8d3a;
+  background-color: transparent;
+  border: 1px solid #bd8d3a;
+  padding: 3%;
+  margin-left: 0px;
+}
