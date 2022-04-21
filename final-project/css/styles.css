@@ -74,3 +74,20 @@ nav .searchBar {
   padding: 12px;
   font-size: 15px;
 }
+
+/* About: At mobile, imange has full width with cornered bleed and the chunk of text below that. At desktop, the image and text will beside of each other. */
+#aboutUs {
+  background-color: #fbe7b3;
+  padding: 2% 2%;
+}
+#aboutUs img {
+  width: 100%;
+}
+
+#aboutUs .details h1 {
+  font-size: 30px;
+}
+
+#aboutUs .details p {
+  font-size: 14px;
+}
