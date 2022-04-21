@@ -173,3 +173,36 @@ button {
   color: white;
   font-size: 15px;
 }
+
+/* Team: At mobile, image has full width with cornered bleed and the chunk of text below that. At desktop, will use grid to create a multi-column layout. grid-template-areas will allow me to adjust the width for different child elements.  */
+#team {
+  padding: 2% 2%;
+}
+
+#team img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.teamGrid .wrapper {
+  background-color: #fbe7b3;
+  padding: 2%;
+}
+
+.teamGrid .wrapper p:nth-child(1) {
+  font-size: 25px;
+}
+
+.border {
+  display: block;
+  border-bottom: 2px solid gray;
+}
+
+.teamGrid .wrapper p:nth-child(2) {
+  font-size: 20px;
+}
+
+.teamGrid .wrapper p:nth-child(3) {
+  font-size: 14px;
+}
