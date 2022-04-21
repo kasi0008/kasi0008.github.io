@@ -370,7 +370,7 @@ button {
   }
 }
 
-/* Contact: At mobile, using flex to place form and map beside each other. At desktop, map will place below the contact form and table. i-frame is used to embed the map in webpage.  */
+/* Contact: At mobile, using flex to place form and map beside each other and adding schedule table using table css properties. At desktop, map will place below the contact form and table with the use of flex. i-frame is used to embed the map in webpage. */
 #contact {
   padding: 2% 2%;
 }
