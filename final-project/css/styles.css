@@ -75,7 +75,7 @@ nav .searchBar {
   font-size: 15px;
 }
 
-/* About: At mobile, imange has full width with cornered bleed and the chunk of text below that. At desktop, the image and text will beside of each other. */
+/* About: At mobile, imange has full width and the chunk of text below that. At desktop, the image and text will beside of each other. */
 #aboutUs {
   background-color: #fbe7b3;
   padding: 2% 2%;
@@ -174,7 +174,7 @@ button {
   font-size: 15px;
 }
 
-/* Team: At mobile, image has full width with cornered bleed and the chunk of text below that. At desktop, will use grid to create a multi-column layout. grid-template-areas will allow me to adjust the width for different child elements.  */
+/* Team: At mobile, image has full width the chunk of text below that. At desktop, will use grid to create a multi-column layout. grid-template-areas will allow me to adjust the width for different child elements.  */
 #team {
   padding: 2% 2%;
 }
@@ -205,4 +205,46 @@ button {
 
 .teamGrid .wrapper p:nth-child(3) {
   font-size: 14px;
+}
+
+/* Contact: At mobile, using flex to place form and map beside each other. At desktop, map will place below the contact form and table. i-frame is used to embed the map in webpage.  */
+#contact {
+  padding: 2% 2%;
+}
+
+#contact p{
+  font-size: 30px;
+  margin: 0%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container h3 {
+  font-size: 25px;
+}
+
+.flex-container input {
+  width: 98%;
+  height: 30px;
+}
+
+.flex-container textarea {
+  width: 98%;
+  height: 200px;
+}
+
+.flex-container button {
+  background-color: black;
+  color: #bd8d3a;
+  border: 0px;
+  padding: 10px 40px;
+  font-size: 15px;
+  margin-left: 0%;
+}
+
+#contact iframe {
+  width: 100%;
 }
