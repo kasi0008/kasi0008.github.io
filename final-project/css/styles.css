@@ -137,3 +137,39 @@ button {
   height: 250px;
   object-fit: cover;
 }
+
+/* Vision: At mobile, this has a full width background image. In the middle, it holds the content and button. At desktop, the content structure will still edge to edge and has a button. */
+#our-vision {
+  position: relative;
+}
+
+#our-vision img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  background-color: rgb(34, 34, 34, 0.7);
+}
+
+#our-vision div {
+  position: absolute;
+  top: 50%;
+  left: 3%;
+  transform: translate(-3%, -50%);
+  color: white;
+}
+
+#our-vision div p:nth-child(1) {
+  font-size: 30px;
+}
+
+#our-vision div p:nth-child(2) {
+  font-size: 14px;
+}
+
+#our-vision button {
+  background-color: black;
+  border: 0px;
+  padding: 20px;
+  color: white;
+  font-size: 15px;
+}
