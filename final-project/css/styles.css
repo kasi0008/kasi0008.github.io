@@ -119,6 +119,20 @@ nav .searchBar {
   font-size: 15px;
 }
 
+@media screen and (min-width: 768px) {
+  #mainBanner {
+    height: 700px;
+  }
+  
+  #mainBanner img {
+    height: 700px;
+  }
+  #mainBanner .wrapper {
+    width: 60%;
+    padding: 5%;
+  }
+}
+
 /* About: At mobile, imange has full width and the chunk of text below that. At desktop, the image and text will beside of each other. */
 #aboutUs {
   background-color: #fbe7b3;
