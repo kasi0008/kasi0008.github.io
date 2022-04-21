@@ -150,6 +150,18 @@ nav .searchBar {
   font-size: 14px;
 }
 
+@media screen and (min-width: 768px) {
+  #aboutUs {
+    display: table;
+  }
+
+  #aboutUs img {
+    margin: 0 2% 0 5%;
+    float: left;
+    width: 40%;
+  }
+}
+
 /* Services: At mobile, services have multiple child-elements in one column with bleed. Each child element include image, sub-heading, some text and button. At desktop, will use grid to create a multi-column layout. grid-template-areas will allow me to adjust the width for different child elements. */
 
 #services {
