@@ -268,3 +268,11 @@ td {
 #schdule th {
   background-color: #fbe7b3;
 }
+
+/* Footer: At mobile, this has a full width solid background. At desktop, it is same as the mobile.  */
+footer {
+  background-color: #222222;
+  height: 100px;
+  color: #bd8d3a;
+  padding: 2% 0 0 8%;
+}
