@@ -248,3 +248,23 @@ button {
 #contact iframe {
   width: 100%;
 }
+
+/* Schedule: At mobile, table is used for making a schedule and it placed at the end of the page. At desktop, it will appear in between Contact form and map. */
+#schdule {
+  padding: 2% 2%;
+}
+
+#schdule table {
+  width: 100%;
+}
+
+#schdule table,
+th,
+td {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+#schdule th {
+  background-color: #fbe7b3;
+}
